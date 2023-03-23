@@ -21,7 +21,7 @@ def greetmsg(message):
 
 @bot.message_handler(func=greetmsg)
 def sayhi(message):
-  bot.send_message(message.chat.id, "Hi there! You have to just type the ticker")
+  bot.send_message(message.chat.id, "Hi there! You have to just type the ticker additional text to check")
 
 
 def getTicker(message):
